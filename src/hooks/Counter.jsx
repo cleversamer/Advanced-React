@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
+import useDocumentTitle from "./custom/useDocumentTitle";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");
 
-  useEffect(() => {
-    document.title = `${name} has clicked ${count} times`;
+  //   useEffect(() => {
+  //     document.title = `${name} has clicked ${count} times`;
 
-    return () => {
-      console.log("Clean up!");
-    };
-  }, []);
+  //     return () => {
+  //       console.log("Clean up!");
+  //     };
+  //   }, []);
+
+  // This is a call for a custom hook that does the same as the following useEffect call.
+  useDocumentTitle(`${name} has clicked ${count} times`);
 
   return (
     <div>
