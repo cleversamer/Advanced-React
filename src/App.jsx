@@ -1,10 +1,11 @@
 import React from "react";
+import Movie from "./hoc/Movie";
 import "./css/app.css";
 
 const App = () => {
   return (
     <div className="app">
-      <h1>Hello World!</h1>
+      <Movie id="1" />
     </div>
   );
 };
