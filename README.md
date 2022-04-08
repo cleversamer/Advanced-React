@@ -1,14 +1,8 @@
-# Project Title 🚀
-
-Simple overview of use/purpose.
-
-## 🔴 Live Demo
-
-Not live yet...
+# React - Advanced Topics
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Advanced React topics implementation (e.g. Higher Order Components, Hooks, Context API)
 
 ## Getting Started
 
@@ -27,13 +21,8 @@ An in-depth paragraph about your project and overview of use.
 
 ## Help
 
-- You may face an issue when installing dependencies, so use `--force` to avoid any problems
+- No problems detected
 
 ## Authors
 
 - [Samer A.](https://twitter.com/ssadawi__)
-
-## Version History
-
-- 1.0
-  - Initial Release 🚀
